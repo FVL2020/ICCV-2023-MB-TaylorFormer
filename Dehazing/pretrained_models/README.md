@@ -1,0 +1,1 @@
+pre-trained deraining model is available [here](https://drive.google.com/drive/folders/1dthNFrrM1qbU0JM1meiC9_Aty3_8kYdX)
