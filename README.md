@@ -5,8 +5,8 @@ This repository contains the official implementation of the following paper:
 > [Yuwei Qiu](https://arxiv.org/search/cs?searchtype=author&query=Qiu%2C+Y), [Kaihao Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang%2C+K), [Chenxi Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+C), [Wenhan Luo](https://arxiv.org/search/cs?searchtype=author&query=Luo%2C+W), [Hongdong Li](https://arxiv.org/search/cs?searchtype=author&query=Li%2C+H), [Zhi Jin](https://arxiv.org/search/cs?searchtype=author&query=Jin%2C+Z)<sup>*</sup><br>
 > International Conference on Computer Vision (ICCV), 2023<br>
 **Paper Link:** [[official link](https://arxiv.org/abs/2308.14036)]
-> 
-**Paper Link:** [[Google Drive](https://drive.google.com/file/d/11HZeR44TpOVNSdC8loEbgSENNfHel6BC/view?usp=drive_link)] 
+
+**supplementary material Link:** [[Google Drive](https://drive.google.com/file/d/11HZeR44TpOVNSdC8loEbgSENNfHel6BC/view?usp=drive_link)] 
 
 ## Overview
 ![overall_structure](./figs/pipeline.png)
