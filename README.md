@@ -4,7 +4,8 @@ This repository contains the official implementation of the following paper:
 > MB-TaylorFormer: Multi-branch Efficient Transformer Expanded by Taylor Formula for Image Dehazing<br>
 > [Yuwei Qiu](https://arxiv.org/search/cs?searchtype=author&query=Qiu%2C+Y), [Kaihao Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang%2C+K), [Chenxi Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+C), [Wenhan Luo](https://arxiv.org/search/cs?searchtype=author&query=Luo%2C+W), [Hongdong Li](https://arxiv.org/search/cs?searchtype=author&query=Li%2C+H), [Zhi Jin](https://arxiv.org/search/cs?searchtype=author&query=Jin%2C+Z)<sup>*</sup><br>
 > International Conference on Computer Vision (ICCV), 2023<br>
-**Paper Link:** [[official link](https://arxiv.org/abs/2308.14036)] 
+**Paper Link:** [[official link](https://arxiv.org/abs/2308.14036)]
+**Paper Link:** [[Google Drive](https://drive.google.com/file/d/11HZeR44TpOVNSdC8loEbgSENNfHel6BC/view?usp=drive_link)] 
 
 ## Overview
 ![overall_structure](./figs/pipeline.png)
@@ -18,7 +19,7 @@ See [INSTALL.md](https://github.com/swz30/Restormer/blob/main/INSTALL.md) for th
 ## Prepare pretrained models
 Before performing the following steps, please download our pretrained model first.
 
- **Download Links:** [[Google Drive](https://drive.google.com/drive/folders/1dthNFrrM1qbU0JM1meiC9_Aty3_8kYdX?usp=sharing)]
+ **Download Links:** [[Google Drive](https://drive.google.com/drive/folders/1a01P025U6VoEOJZZr09Dew7T2epgb7D_?usp=drive_link)]
 
 Then, place the models to `dehazing/pretrained_models` directory.
 
@@ -33,11 +34,14 @@ CUDA_VISIBLE_DEVICES=0 python dehazing/test.py --size 'B'  --input_dir '/data/QY
 ```
 
 ## Prepare dataset for training and evaluation
+ **Download Links:** [[Google Drive](https://drive.google.com/drive/folders/1mHr9p-c895tFtyRLz1JEeEGAurTmj_v-?usp=drive_link)] (ITS, SOTS, OHAZE, Dense-haze)
+ **Download Links:** [[official link](https://sites.google.com/view/reside-dehaze-datasets)] (OTS)
+ 
 The `data` directory structure will be arranged as: 
 ```
 data
    |- ITS
-      |- Train
+      |- Trai
       	|- Haze
         	|- 1_1_0.90179.png 
         	|- 2_1_0.99082.png
@@ -132,13 +136,13 @@ CUDA_VISIBLE_DEVICES=0 python dehazing/test.py --size 'B'  --input_dir '/data/QY
 ```
 
 ## Results
+**Download Links:** [[Google Drive](https://drive.google.com/drive/folders/11RTuBBhrhFMXlnMx44v24AdukAMW-8IA?usp=drive_link)]
 
-Comming soon
 
 
 ## Citation
 
-   If you find our repo useful for your research, please consider citing our paper:
+   If you find our repo useful for your research, please consider citin our paper:
 
    ```bibtex
     @misc{2308.14036,
