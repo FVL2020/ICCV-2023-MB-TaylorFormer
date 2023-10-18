@@ -213,9 +213,9 @@ class Attention(nn.Module):
         v = rearrange(v, 'b (head c) h w -> b head (h w) c', head=self.num_heads)
 
         #q = torch.nn.functional.normalize(q, dim=-1)
-        q_norm=torch.norm(q,p=2,dim=-1,keepdim=True)/self.norm
+        q_norm=torch.norm(q,p=2,dim=-1,keepdim=True)/self.norm+1e-6
         q=torch.div(q,q_norm)
-        k_norm=torch.norm(k,p=2,dim=-2,keepdim=True)/self.norm
+        k_norm=torch.norm(k,p=2,dim=-2,keepdim=True)/self.norm+1e-6
         k=torch.div(k,k_norm)
         #k = torch.nn.functional.normalize(k, dim=-2)
 
