@@ -8,6 +8,8 @@ This repository contains the official implementation of the following paper:
 
 **supplementary material Link:** [[Google Drive](https://drive.google.com/file/d/11HZeR44TpOVNSdC8loEbgSENNfHel6BC/view?usp=drive_link)] 
 
+ Join our talk on Tencent Meeting! Meeting ID: 460599803, Password: 231119. Let's connect, learn, and have a great discussion. See you there! 
+
 ## Overview
 ![overall_structure](./figs/pipeline.png)
 Architecture of MB-TaylorFormer. (a) MB-TaylorFormer consists of a multi-branch hierarchical design based on multi-scale patch embedding. (b) Multi-scale patch embedding embeds coarse-to-fine patches. (c) TaylorFormer with linear computational complexity. (d) MSAR module compensates for errors in Taylor expansion.
