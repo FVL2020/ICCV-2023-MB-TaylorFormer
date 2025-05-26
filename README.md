@@ -1,6 +1,9 @@
 # MB-TaylorFormer: Multi-branch Efficient Transformer Expanded by Taylor Formula for Image Dehazing （ICCV 2023）
 
 $${\color{red}We have released MB-TaylorFormer V2 (TPAMI), which achieves improved performance and extends its application to more tasks, including deblurring, denoising, deraining, dehazing, and desnowing.}$$
+<p style="color: red; font-size: 18px; font-weight: bold;">
+  We have released MB-TaylorFormer V2 (TPAMI), which achieves improved performance...
+</p>
 Paper: https://arxiv.org/abs/2501.04486
 
 GitHub:https://github.com/FVL2020/MB-TaylorFormerV2
